@@ -1,0 +1,6 @@
+<Stack.Screen name="First" component={First} options={{ headerShown: false  }} />
+<Stack.Screen name="First" component={First} options={{ title: "first"  }} />
+onPress={() => navigation.navigate('First')}
+
+
+npm install @react-navigation/bottom-tabs

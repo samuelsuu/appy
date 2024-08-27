@@ -7,11 +7,9 @@ import Second from "./screen/onboading/Second";
 import Setting from "./screen/Setting";
 import Home from "./screen/Home";
 import { FontAwesome } from "@expo/vector-icons";
-import { createDrawerNavigator } from '@react-navigation/drawer';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
-const Drawer =  createDrawerNavigator();
 
 // Tab Navigator for the main app screens
 function MainTabs() {
@@ -39,14 +37,7 @@ function MainTabs() {
   );
 }
 
-function Sam (){
-  return (
-    <Drawer.Navigator initialRouteName="Home">
-        <Drawer.Screen name="Home" component={Home} />
-        <Drawer.Screen name="Setting" component={Setting} />
-      </Drawer.Navigator>
-  )
-}
+
 
 function App() {
   return (
@@ -67,7 +58,7 @@ function App() {
         {/* Main App Screens */}
         <Stack.Screen
           name="MainTabs"
-          component={Sam}
+          component={MainTabs}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

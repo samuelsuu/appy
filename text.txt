@@ -4,3 +4,6 @@ onPress={() => navigation.navigate('First')}
 
 
 npm install @react-navigation/bottom-tabs
+
+
+npm install @react-native-async-storage/async-storage

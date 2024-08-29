@@ -30,7 +30,7 @@ const Second = ({ navigation }) => {
 
       <TouchableOpacity
         style={styles.but}
-        onPress={() => navigation.navigate("MainTabs")}
+        onPress={() => navigation.navigate("Reg")}
       >
         <Text style={{ textAlign: "center" }}>Get Started</Text>
       </TouchableOpacity>

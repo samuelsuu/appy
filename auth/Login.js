@@ -55,7 +55,7 @@ function SignIn() {
         }}
         placeholder="Username or Email"
         autoCapitalize="false"
-        autoCorrect="false"
+        
         value={usernameOrEmail}
         onChangeText={setUsernameOrEmail}
       />

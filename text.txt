@@ -7,3 +7,16 @@ npm install @react-navigation/bottom-tabs
 
 
 npm install @react-native-async-storage/async-storage
+
+
+
+splash screen
+expo install expo-splash-screen
+
+
+
+expo install firebase
+expo install expo-auth-session expo-google-auth-session
+expo install expo-facebook
+expo install react-native-webview
+

@@ -7,6 +7,8 @@ function Registration() {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setconfirmPassword] = useState('')
+
   const navigation = useNavigation();
 
   const handleRegistration = async () => {
